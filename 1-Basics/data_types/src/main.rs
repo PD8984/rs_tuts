@@ -77,6 +77,26 @@ fn main() {
     // let sv: &[i32] = &v;
     // println!("{:?}", sv);
 
-    let name = String::from("Preet");
-    let tut = "rs".to_string();
+    // let name = String::from("Preet");
+    // let tut = "rs".to_string();
+    // let new_name = name.replace("Preet", "Mr. Preet");
+    //
+    // println!("{}", name);
+    // println!("{}", tut);
+    // println!("{}", new_name);
+    //
+    // // &str = "string slice" or "stir"
+    // let str1 = "Hello"; //&str
+    // let str2 = str1.to_string();
+    // let str3 = &str2;
+    //
+    // println!("{}", str1);
+    // println!("{}", str2);
+    // println!("{}", str3);
+    //
+    // // Compare string == !=
+    // println!("{}", "ONE".to_lowercase() == "one")
+
+    let rust = "\x52\x75\x73\x74";
+    println!("{}", rust);
 }
